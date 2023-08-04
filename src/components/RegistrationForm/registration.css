@@ -1,0 +1,50 @@
+/* Styling for the container of the form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+/* Styling for the form fields */
+div.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Styling for the text fields */
+.TextField {
+  width: 48%;
+}
+
+/* Styling for the submit button */
+.Button {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Styling for the login link */
+span.login-link {
+  padding-top: 5px;
+  display: block;
+  text-align: center;
+}
+
+span.login-link a {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+  background-color: #f7f7f7;
+  padding: 8px 15px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+span.login-link a:hover {
+  background-color: #007bff;
+  color: #fff;
+}

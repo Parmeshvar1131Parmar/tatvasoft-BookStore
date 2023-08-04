@@ -1,0 +1,16 @@
+.a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(143, 186, 207);
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+#a2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
